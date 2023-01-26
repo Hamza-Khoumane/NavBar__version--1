@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="general-styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NavBar</title>
+  </head>
+  <body>
+    <header class="Navbar">
+      <section class="Navbar__section">
+        <form class="Navbar__section--lang-currency">
+          <label for="">Language</label>
+
+          <select name="Language">
+            <option value="Arabic">Arabic</option>
+            <option value="">Spanish</option>
+            <option value="">English</option>
+            <option value="">Turkey</option>
+          </select>
+
+          <label for=""> Currency</label>
+
+          <select name="Currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="ARAB">ARAB</option>
+            <option value="bizos">Bizos</option>
+          </select>
+        </form>
+
+        <nav class="Navbar__section--nav">
+          <h6>About Us</h6>
+          <h6>Order Tracking</h6>
+          <h6>Contact Us</h6>
+          <h6>FAQs</h6>
+        </nav>
+      </section>
+
+      <section class="Navbar__section">
+        <div class="Navbar__section--logo-form">
+          <a>HK</a>
+
+          <form class="Navbar__section--logo-form__Search">
+            <select name="cate">
+              <option value="">All Categories</option>
+              <option value="">IT Software</option>
+              <option value="">Usless</option>
+              <option value="">Technology</option>
+              <option value="">Primary</option>
+            </select>
+
+            <input type="search" placeholder="I'm Shopping for...." />
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+
+        <div class="Navbar__section--Shopp">
+          <div class="Navbar__section--Shopp__fav">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h6>Favorites</h6>
+              <h6>My Wishlist</h6>
+            </div>
+          </div>
+
+          <div class="Navbar__section--Shopp__wishlist">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div>
+              <h6>Login</h6>
+              <h6>My Account</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Navbar__section">
+        <nav class="Navbar__section--nav">
+          <h6>Women</h6>
+          <h6>Mens</h6>
+          <h6>Kids</h6>
+          <h6>Accesories</h6>
+          <h6>More Items</h6>
+        </nav>
+
+        <div class="navbar__section__contact">
+          <i class="fa-solid fa-phone"></i>
+          <p>Need Help? <span>+21265 3533 5330</span></p>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>

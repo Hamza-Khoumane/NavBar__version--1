@@ -1,0 +1,77 @@
+.Navbar {
+  background-color: #0d4eb0;
+  padding: 4rem;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Navbar__section:nth-child(1),
+.Navbar__section:nth-child(2) {
+  border-bottom: 1px solid rgba(255 255 255 / 0.35);
+  padding-bottom: 2rem;
+}
+.Navbar__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar__section--lang-currency {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Navbar__section--lang-currency label,
+.Navbar__section--lang-currency select,
+.Navbar__section--nav h6,
+.Navbar__section--logo-form a,
+.Navbar__section--logo-form__Search select,
+.Navbar__section--logo-form input[type="submit"],
+.Navbar__section--Shopp__fav i,
+.Navbar__section--Shopp__wishlist i,
+.Navbar__section--Shopp__fav div h6,
+.Navbar__section--Shopp__wishlist div h6,
+.navbar__section__contact i,
+.navbar__section__contact p {
+  color: white;
+}
+
+select,
+.Navbar__section--logo-form input[type="submit"] {
+  background-color: #1363df;
+}
+
+.Navbar__section--nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.Navbar__section--logo-form,
+.Navbar__section--Shopp {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.Navbar__section--logo-form input[type="search"] {
+  background-color: white;
+}
+
+.Navbar__section--Shopp__fav,
+.Navbar__section--Shopp__wishlist,
+.navbar__section__contact {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.Navbar__section--Shopp__fav div,
+.Navbar__section--Shopp__wishlist div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
